@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="select-box">
+    <label>Requests Per Page</label>
+    <select id="reqPerPage" >
+          <option>5</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>50</option>
+          <option>ALL</option>
+      </select>
+      <button class="drop-btn" onclick="myFunction()">Display index</button>
+  </div>
+  <div class="flex-box">
+    <div class="table-box">
+      <table class="table">
+        <tr class="table-head">
+          <th>Index</th>
+          <th>Country_Name</th>
+          <th>Code</th>
+        </tr>
+      </table>
+    </div>
+     <div id="pagination">
+
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>

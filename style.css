@@ -1,0 +1,42 @@
+#pagination {
+  display: inline-block;
+  padding: 20px;
+}
+.select-box{
+  padding: 20px;
+}
+label{
+  color: blue;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+#previous-btn,
+#next-btn {
+  background-color: green;
+}
+#clickbtn-active{
+  background-color:red;
+}
+
+button:hover:not(.active) {
+  background-color: #ddd;
+}
+.drop-btn{
+background-color: pink;
+color: black;
+font-weight: bold;
+}
+.table{
+ padding: 20px;
+}
+
+tr{
+  padding: 20px;
+  background-color: #dddddd;
+}
+tr:hover{
+  background-color:pink;
+  
+  }
+
